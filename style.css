@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/*font-family: 'League Spartan', sans-serif; */
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+  body{
+    background-color: var(--body-bg-color);
+    font-family: 'League Spartan','Work Sans';
+  }
+
+  div.logo img{
+    padding: 40px;
+    width: 350px;
+    display: flex;
+  }
+
+  h2{
+    padding-top: 50px;
+    color: var(--title-color);
+    font-size: 19pt;
+  }
+
+  h3{
+    padding: 0px;
+    margin: -10px 0px -10px 0px;
+    color: var(--text-color);
+    font-size: 12pt;
+  }
+    
+  p#meio{
+    display: block;
+    font-size: 14pt;
+    width: 700px;
+    color: var(--form-color);
+    margin-bottom: 80px;
+  }
+
+  main{
+    margin-left: 40px;
+    display: block;
+    width: 500px;
+    float: left;
+    border: none;
+  }
+
+  aside img{
+    display: block;
+    width: 1100px;
+    float: right;
+    height: 100vh;
+    margin-top: -172px;
+    margin-right: -5px;
+    border: none;
+  }
+
+  div#email p{
+    color: var(--form-color);
+  }
+
+  div#fundo{
+    color: var(--bg-button-color);
+  }
+
+  input{
+    position: absolute;
+    width: 850px;
+    height: 34px;
+    border: none;
+    border-left: 4px solid #04D361;
+  }
+
+  button{
+    position: absolute;
+    margin-left: 855px;
+    height: 36px;
+    width: 40px;
+    background-color: var(--bg-button-color);
+    border-style: none;   
+    
+  }
+  button img{
+    width: 1.3em;
+  }
+
+  div#fundo{
+    display: flex;
+    padding-top: 100px;
+
+  }
